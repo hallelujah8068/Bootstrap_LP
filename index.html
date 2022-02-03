@@ -52,7 +52,7 @@
 
     <section class="top py-5 text-white">
         <div class="container py-5">
-            <h1 class="text-center display-3 font-weight-bold mb-3">Bootstrap</h1>
+            <h1 class="text-center display-3 font-weight-bold mb-3 top-title">Bootstrap</h1>
             <p class="text-center lead">Get started with Bootstrap, the world’s most popular framework for building
                 responsive, mobile-first sites, with BootstrapCDN and a template starter page.</p>
         </div>
@@ -160,12 +160,39 @@
         </div>
     </section>
 
-    <section class="contact">
-
+    <section class="contact py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-3">Contact</h2>
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@eample.com">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                        else.</small>
+                </div>
+                <div class="row mb-3">
+                    <div class="col">
+                        <label for="firstName">First Name</label>
+                        <input type="text" class="form-control" placeholder="First name" id="firstName">
+                    </div>
+                    <div class="col">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" class="form-control" placeholder="Last name" id="lastName">
+                    </div>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-outline-danger btn-lg">Submit</button>
+            </form>
+        </div>
     </section>
 
-    <footer>
-
+    <footer class="py-3 bg-dark">
+        <div class="container">
+            <p class="text-white text-right m-0">2022 Bootstrap All rights reserved. </p>
+        </div>
     </footer>
 
     <!-- Optional JavaScript -->
