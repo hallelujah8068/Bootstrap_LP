@@ -1,6 +1,20 @@
 @charset "UTF=8";
 
+@font-face {
+    font-family: 'ROLAchan'; /* フォント名 */
+    /* フォーマットごとにパスを指定 */
+    src: url('../ROLAchan/ROLAchan-Regular.otf') format('opentype');
+}
+
+body h1,h2,h3,h5 {
+    font-family: 'ROLAchan', Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .top {
     background-image: url(../img/top.png);
     background-size: cover;
+}
+
+.top-title {
+    font-size: 48px;
 }
